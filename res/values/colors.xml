@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normalFgColor">#ff333333</color>
+    <color name="timeTextcolor">#ADADAD</color>
+    <color name="time_edit_bg_nohi">#E0E0E0</color>
+    <color name="time_edit_bg_hi">#2386BE</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

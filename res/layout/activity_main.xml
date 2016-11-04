@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmSettingActivity" >
+
+    <LinearLayout 
+        android:id="@+id/main_lLayout_timeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/hour"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/timeTextcolor"
+            android:textSize="25.0sp" />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/minute"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/timeTextcolor"
+            android:textSize="25.0sp" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/main_lLayout_timeLabel">
+        <EditText 
+            android:id="@+id/main_edit_hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:background="@drawable/alarmclock_main_edit_bg"
+            android:textColor="@drawable/textcolor_selector"
+            android:textSize="22.0sp" 
+            android:singleLine="true"
+            android:maxLength="2"
+            />
+        <EditText 
+            android:id="@+id/main_edit_minute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:background="@drawable/alarmclock_main_edit_bg"
+            android:textColor="@drawable/textcolor_selector"
+            android:textSize="22.0sp" 
+            android:singleLine="true"
+            android:maxLength="2"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

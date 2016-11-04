@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string name="alarm">闹钟</string>
+       <string name="alarm_close">关闭</string>
+       <string name="alarm_open">开启</string>
+       <string name="delete">删除</string>
+       <string name="back">返回</string>
+       <string name="day">天</string>
+       <string name="hour">时</string>
+       <string name="minute">分</string>
+       <string name="less_one_minute">不到1分钟</string>
+       <string name="set_alarm_time">闹钟时间已设为</string>
+       <string name="later">之后</string>
+       <string name="alarm_time">闹铃时间</string>
+       <string name="click_cancel">点击取消</string>
+       <string name="alarm_notification_ticker">闹钟通知</string>
+       <string name="close_alarm_clock">关闭闹钟</string>
+       <string name="open_alarm_clock">开启闹钟</string>
+</resources>
